@@ -1,0 +1,9 @@
+*.phar
+.DS_Store
+.idea/
+.vagrant/
+build
+composer.lock
+docs
+phpunit.xml
+vendor

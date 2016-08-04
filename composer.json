@@ -1,0 +1,25 @@
+{
+    "name": "charlydagos/optimized-uuid",
+    "description": "Uuids for optimized storage",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "ramsey/uuid": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {"Charlydagos\\OptimizedUuid\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Charlydagos\\OptimizedUuid\\Test\\": "tests/src/"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos D",
+            "email": "m@cdagostino.io"
+        }
+    ]
+}
