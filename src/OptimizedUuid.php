@@ -39,6 +39,14 @@ class OptimizedUuid
     }
 
     /**
+     * @return Ramsey\Uuid\Uuid
+     */
+    public function getUuid()
+    {
+        return $this->uuid;
+    }
+
+    /**
      * Get a uuid string in ordered format
      * @param string $uuidString
      * @return string

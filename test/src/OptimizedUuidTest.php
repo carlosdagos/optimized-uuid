@@ -26,6 +26,12 @@ class OptimizedUuidTest extends PHPUnit_Framework_TestCase
         new OptimizedUuid();
     }
 
+    public function testInternalUuidObject()
+    {
+        $optimizedUuid = new OptimizedUuid(Uuid::uuid1());
+        $this->assertInstanceOf(Uuid::class, $optimizedUuid->getUuid());
+    }
+
     public function testOptimizedCanBeInstantiated()
     {
         $optimizedUuid = new OptimizedUuid(Uuid::uuid1());
