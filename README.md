@@ -8,6 +8,10 @@ post for Percona
 
 https://www.percona.com/blog/2014/12/19/store-uuid-optimized-way/
 
+This is available for download through packagist here
+
+https://packagist.org/packages/charlydagos/optimized-uuid
+
 ## Usage
 
 This library depends on [`ramsey/uuid`](https://github.com/ramsey/uuid).
